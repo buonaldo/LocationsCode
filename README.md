@@ -1,8 +1,7 @@
 Aldo Buondonno
 (buondonno.aldo@gmail.com)
 
-
-"CodiceAldo" encodes geographic coordinates in an 8-character uppercase alphanumeric code, which has been incorporated into the "Locations Code" project.
+Locations Code - The 8-Character Universal Delivery Address System
 
 The codes are unique worldwide, always maintaining the 8-character format, and each code is 102 feet wide. They are a more stable, precise, and efficient alternative to traditional postal codes.
 
