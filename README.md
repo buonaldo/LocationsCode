@@ -42,11 +42,18 @@ Locations Code solves the "Administrative Dependence" issue found in Google's Co
 ## 🛠 How it Works
 The algorithm ensures an accuracy of approximately **102 feet (30 meters)**. This precision is intentionally calibrated to ensure that every building or home has its own unique and stable code, reducing failed deliveries caused by changing administrative boundaries or ambiguous street addresses.
 
-### Technical Implementation
-The system performs a pure mathematical conversion of GPS coordinates. 
-- No proprietary database required.
-- Works offline.
-- Stable over time (Independent of political or administrative changes).
+---
+
+## ⚙️ Technical Implementation & Portability
+The algorithm is designed for maximum interoperability and low-resource environments. Unlike other geocoding systems, it does not require complex libraries or heavy dependencies.
+
+- **Pure Mathematical Core:** The conversion relies on bit-interleaving and a shifted Base-34 encoding. This ensures a 1:1 relationship between GPS coordinates and the 8-character string, with no "black-box" processing.
+- **High-Efficiency Sorting:** Thanks to the interleaving logic, nearby locations share similar prefixes. This allows logistics software to perform spatial sorting and route optimization using simple string comparison, significantly reducing computational overhead.
+- **Zero-Code Integration (Excel/VBA):** To facilitate immediate adoption in corporate environments, a **universal Excel formula** is available. This allows non-developers to process thousands of coordinates directly within spreadsheets, making the system "Plug & Play" for existing logistics databases.
+- **Offline & Stateless:** No internet connection or API calls are needed. The transformation is entirely local, ensuring data privacy and 100% uptime.
+
+---
+
 
 ---
 
