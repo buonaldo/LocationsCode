@@ -58,7 +58,7 @@ The algorithm is designed for maximum interoperability and low-resource environm
 ---
 
 ## 👨‍💻 Project Info
-- **Author:** Aldo Buondonno
+- **Author:** Aldo Buondonno (buondonno.aldo@gmail.com)
 - **Official Website:** [locationscode.com](https://www.locationscode.com)
 - **Status:** Open for integration in logistics and sorting software.
 
