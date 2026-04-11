@@ -42,7 +42,9 @@ Locations Code solves the "Administrative Dependence" issue found in Google's Co
 ## 🛠 How it Works
 The algorithm ensures an accuracy of approximately **102 feet (30 meters)**. This precision is intentionally calibrated to ensure that every building or home has its own unique and stable code, reducing failed deliveries caused by changing administrative boundaries or ambiguous street addresses.
 
+<img width="837" height="347" alt="image" src="https://github.com/user-attachments/assets/9f273fed-1669-443b-b356-f354b1a09fda" />
 ---
+
 
 ## ⚙️ Technical Implementation & Portability
 The algorithm is designed for maximum interoperability and low-resource environments. Unlike other geocoding systems, it does not require complex libraries or heavy dependencies.
@@ -52,10 +54,10 @@ The algorithm is designed for maximum interoperability and low-resource environm
 - **Zero-Code Integration (Excel/VBA):** To facilitate immediate adoption in corporate environments, a **universal Excel formula** is available. This allows non-developers to process thousands of coordinates directly within spreadsheets, making the system "Plug & Play" for existing logistics databases.
 - **Offline & Stateless:** No internet connection or API calls are needed. The transformation is entirely local, ensuring data privacy and 100% uptime.
 
----
 
 
----
+
+
 
 ## 👨‍💻 Project Info
 - **Author:** Aldo Buondonno (buondonno.aldo@gmail.com)
