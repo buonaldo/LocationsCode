@@ -166,13 +166,3 @@ function GoMaps(code)
  
 }
 
-function showAlert(title, message) {
-  //Use a personalized alert
-  document.getElementById('alertTitle').innerText = title;
-  document.getElementById('alertMessage').innerText = message;
-  document.getElementById('customAlert').style.display = 'flex';
-}
-
-function closeAlert() {
-  document.getElementById('customAlert').style.display = 'none';
-}
