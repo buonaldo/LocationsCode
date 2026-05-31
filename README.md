@@ -1,6 +1,5 @@
-<img width="64" height="64" alt="lc-logo64" src="https://github.com/user-attachments/assets/f123c47d-75f0-47fe-bbec-cc2d99ccfd03" />
- 
- ##Locations Code: A Universal GPS Address System
+<h1><img width="64" height="64" alt="lc-logo64" src="https://github.com/user-attachments/assets/f123c47d-75f0-47fe-bbec-cc2d99ccfd03" />
+ Locations Code: A Universal Location Identifier</h1>
 
 **Locations Code** is a mathematical geocoding algorithm that converts geographic coordinates into a stable, 8-character alphanumeric string. Designed specifically for **logistics, sorting, and last-mile delivery**, it provides a unique and universal alternative to traditional postal addresses.
 
